@@ -1,0 +1,128 @@
+/** Fonts **/
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../font/OpenSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../font/OpenSans-Semibold.ttf") format("truetype");
+  font-weight: bold; }
+
+body {
+  font-family: 'Open Sans'; }
+
+a {
+  color: #666666; }
+  a:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+    -moz-transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear; }
+
+p {
+  color: #666666; }
+
+.logo {
+  background: url("../img/logo.png");
+  display: block;
+  width: 200px;
+  height: 96px;
+  text-indent: -9999px;
+  float: left; }
+
+.nav {
+  margin-top: 25px !important; }
+  .nav li.active a {
+    color: #ce6338 !important;
+    text-shadow: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    font-weight: bold; }
+
+.header {
+  padding: 40px 0; }
+  .header h4 {
+    color: #999999;
+    font-weight: normal; }
+
+.upcoming-box {
+  margin-top: 2em; }
+  .upcoming-box .date {
+    position: relative;
+    color: white;
+    text-align: center;
+    background: #4096b1;
+    padding: 5px 10px; }
+    .upcoming-box .date h2, .upcoming-box .date h4 {
+      font-weight: normal; }
+    .upcoming-box .date p {
+      position: absolute;
+      right: -35px;
+      top: 35px;
+      width: 80px;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      background: #ce6338;
+      padding: 5px 10px;
+      color: white; }
+  .upcoming-box .desc {
+    background: #f2f2f2;
+    padding: 20px;
+    color: #333333; }
+
+.calendar-header {
+  background: #32768c;
+  text-align: center;
+  padding: 10px;
+  color: white; }
+  .calendar-header span {
+    font-size: 80%; }
+
+.calendar table tr th {
+  background: #4096b1;
+  color: white;
+  border-right: 1px rgba(250, 250, 250, 0.15) solid; }
+.calendar table tr td {
+  border: 1px #e6e6e6 solid;
+  height: 50px; }
+  .calendar table tr td span {
+    float: right;
+    font-size: 70%; }
+  .calendar table tr td a {
+    color: #ce6338;
+    font-size: 90%; }
+    .calendar table tr td a:hover {
+      color: #f35313; }
+
+.list {
+  display: none; }
+
+.view li {
+  font-size: 30px; }
+  .view li.active a {
+    color: #1a1a1a; }
+
+.popover .popover-title {
+  background: #ce6338;
+  color: white;
+  font-size: 18px; }
+
+form label {
+  font-weight: bold; }
+
+#footer {
+  margin-top: 40px; }
+  #footer ul li {
+    font-size: 12px;
+    color: #666666; }
+    #footer ul li a {
+      border-left: 1px #b3b3b3 dashed;
+      padding-left: 10px;
+      color: #666666; }
+      #footer ul li a:hover {
+        color: #1a1a1a; }
