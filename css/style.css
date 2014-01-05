@@ -121,8 +121,8 @@ form label {
     font-size: 12px;
     color: #666666; }
     #footer ul li a {
-      border-left: 1px #b3b3b3 dashed;
-      padding-left: 10px;
-      color: #666666; }
+      border-right: 1px #b3b3b3 dashed;
+      padding-right: 10px;
+      color: #ce6338; }
       #footer ul li a:hover {
         color: #1a1a1a; }

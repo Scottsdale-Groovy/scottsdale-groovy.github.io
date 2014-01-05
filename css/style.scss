@@ -11,9 +11,9 @@ $orange: #ce6338;
 }
 
 @mixin fadelink {
-  -moz-transition: color 0.3s linear; 
-  -webkit-transition: color 0.3s linear; 
-  -o-transition: color 0.3s linear; 
+  -moz-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
   transition: color 0.3s linear;
 }
 
@@ -114,7 +114,7 @@ p {
   span {
     font-size: 80%;
   }
-}  
+}
 
 .calendar {
   table {
